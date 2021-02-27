@@ -1,11 +1,43 @@
 # TEAM WORK
 
-## ACCIONES A REALIZAR PARA ACTIVAR ENTORNO VIRTUAL
-### 1. Ir a opción  Terminal -> New Terminal
-### 2. En el command teclear la instrucción:
-```python
-python -m venv .venv
-```
-### 3. Teclear
-####  .venv\Scripts\activate
+## Instrucciones para desarrollo
 
+1.- Activar un entorno virtual
+
+Windows
+```
+.venv\Scripts\activate
+```
+MacOS y Linux
+```
+source .venv/bin/activate
+```
+
+**Si no tienes un entorno virtual**, crealo con la siguiente instrucción:
+```
+python3 -m venv .venv
+```
+
+2.- Instalar dependencias
+
+```
+pip install -r requirements.txt
+```
+
+3.- Inicializar jupyter lab
+
+```
+jupyter notebook
+```
+
+## Descargar dataset
+
+Cuando ya tengas tu entorno virtual activo, descarga la última versión de nuestro dataset.
+
+```
+python downloader.py
+```
+
+## Uso de github + git
+
+Usamos git+github porque somos cool. :D
